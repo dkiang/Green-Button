@@ -13,6 +13,8 @@ Situation Room is a room. It is east of Oval Office.
 
 Oak Door is a door. It is north of Oval Office and south of Hallway. It is locked and lockable.
 
+Brass Key is a thing. The Brass Key unlocks the Oak Door. It is in Oval Office.
+
 Hallway is north of Oak Door.
 
 President's Chambers is a room. It is west of Hallway.
