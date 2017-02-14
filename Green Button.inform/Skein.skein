@@ -14,14 +14,65 @@ An Interactive Fiction by Douglas Kiang
 Release 1 / Serial number 170214 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Oval Office
-You can see Oak Door and Brass Key here.
+The centerpiece of this huge office is a huge Resolute Desk sitting squarely in front of the large windows. A small sitting area with couches sits in front of the desk. A large oak door leads out to the north, and the White House front lawn is to the south.
+
+You can see Oak Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1123"></child>
+        <children><child nodeId="node-1146"></child>
+            <child nodeId="node-1123"></child>
             <child nodeId="node-1135"></child>
             <child nodeId="node-1127"></child>
+            <child nodeId="node-1142"></child>
         </children>
+    </item>
+    <item nodeId="node-1142">
+        <command xml:space="preserve">x desk</command>
+        <result xml:space="preserve">A beautiful old desk made out of solid dark oak, with ornate carvings and flourishes. One of the drawers is slightly ajar.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1143"></child>
+        </children>
+    </item>
+    <item nodeId="node-1143">
+        <command xml:space="preserve">x drawer</command>
+        <result xml:space="preserve">You see nothing special about Drawer.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1149"></child>
+            <child nodeId="node-1144"></child>
+        </children>
+    </item>
+    <item nodeId="node-1144">
+        <command xml:space="preserve">open drawer</command>
+        <result xml:space="preserve">You open Drawer.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1145"></child>
+        </children>
+    </item>
+    <item nodeId="node-1145">
+        <command xml:space="preserve">x drawer</command>
+        <result xml:space="preserve">Drawer is empty.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1149">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Oval Office
+The centerpiece of this huge office is a huge Resolute Desk sitting squarely in front of the large windows. A small sitting area with couches sits in front of the desk. A large oak door leads out to the north, and the White House front lawn is to the south.
+
+The drawer is partially open. You can just see a scrap of paper inside the drawer.
+
+You can also see Oak Door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1127">
         <command xml:space="preserve">unlock door</command>
@@ -192,6 +243,14 @@ That's fixed in place.
         </children>
     </item>
     <item nodeId="node-1126">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Oval Office
+You can see Oak Door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1146">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">Oval Office
 You can see Oak Door here.
